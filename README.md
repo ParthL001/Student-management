@@ -14,6 +14,7 @@ Machine Learning Integration
 Predict student marks using historical database records
 Uses Linear Regression algorithm
 Trained automatically from stored data in MySQL
+
 🧠 Machine Learning Concept
 The project uses Linear Regression to predict student marks.
 The model learns patterns from existing student records stored in the database and predicts marks for a given subject.
