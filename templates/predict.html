@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Predict Marks</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Predict Marks</h2>
+
+<form method="POST">
+
+<input type="text" name="subject" placeholder="Enter Subject" required>
+
+<button type="submit">Predict</button>
+
+</form>
+
+{% if prediction %}
+
+<h3>Predicted Marks : {{prediction}}</h3>
+
+{% endif %}
+
+</div>
+
+</body>
+
+</html>

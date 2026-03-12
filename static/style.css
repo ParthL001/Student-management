@@ -1,0 +1,147 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Page Background */
+body{
+    background: linear-gradient(135deg,#1f2937,#111827);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+/* Main Card */
+.container{
+    background:#1f2937;
+    padding:40px;
+    border-radius:12px;
+    width:450px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.6);
+    text-align:center;
+}
+
+/* Heading */
+h1,h2{
+    margin-bottom:25px;
+    color:#38bdf8;
+}
+
+/* Navigation Buttons */
+.btn-group{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+/* Button Style */
+.nav-btn{
+    text-decoration:none;
+    background:#38bdf8;
+    color:#111;
+    padding:12px;
+    border-radius:8px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.nav-btn:hover{
+    background:#0ea5e9;
+    transform:translateY(-2px);
+}
+
+/* Input Fields */
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:6px;
+    border:none;
+    outline:none;
+}
+
+/* Submit Button */
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#22c55e;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#16a34a;
+}
+
+/* Table Styling */
+table{
+    width:100%;
+    margin-top:20px;
+    border-collapse:collapse;
+}
+
+th{
+    background:#38bdf8;
+    color:#111;
+    padding:10px;
+}
+
+td{
+    padding:10px;
+    background:#374151;
+}
+
+tr:nth-child(even){
+    background:#4b5563;
+}
+
+/* Edit/Delete Buttons */
+td a{
+    text-decoration:none;
+    padding:6px 10px;
+    border-radius:5px;
+    margin:2px;
+    font-size:12px;
+}
+
+td a:first-child{
+    background:#facc15;
+    color:black;
+}
+
+td a:last-child{
+    background:#ef4444;
+    color:white;
+}
+table{
+width:100%;
+margin-top:20px;
+border-collapse:collapse;
+}
+
+th, td{
+padding:12px;
+text-align:center;
+}
+
+th{
+background:#38bdf8;
+color:#111;
+}
+
+td{
+background:#374151;
+}
+
+tr:nth-child(even){
+background:#4b5563;
+}

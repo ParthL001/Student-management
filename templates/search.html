@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Student</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Search Student by Roll No</h2>
+        <form method="POST">
+            <input type="text" name="roll_no" placeholder="Enter Roll No" required>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</body>
+</html>
